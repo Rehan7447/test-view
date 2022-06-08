@@ -30,8 +30,6 @@
         <video class="videoDisplay" id="video" autoplay></video>
         <canvas
           id="canvas"
-          width="320"
-          height="240"
           class="videoDisplay canvasDisplay"
           style="display: none"
         ></canvas>
@@ -80,6 +78,7 @@
     click_button.addEventListener("click", function () {
       video.style.display = "none";
       canvas.style.display = "inline-block";
+      click_button.style.display = "none";
       canvas
         .getContext("2d")
         .drawImage(video, 0, 0, canvas.width, canvas.height);
@@ -88,6 +87,7 @@
     retake.addEventListener("click", function () {
       video.style.display = "inline-block";
       canvas.style.display = "none";
+      click_button.style.display = "inline-block";
     });
   </script>
 </html>

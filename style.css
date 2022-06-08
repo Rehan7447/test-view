@@ -136,6 +136,7 @@
   border-radius: 10px;
 }
 
+
 .videoDisplay {
   max-width: 950px;
   max-height: 480px;
@@ -159,7 +160,11 @@
     border-radius: 5px;
   }
   .canvasDisplay {
-    max-width: 320px !important;
-    max-height: 200px !important;
+    height: 250px !important;
+    min-height: 200px !important;
+    margin-top: 100px;
+  }
+  .main {
+    min-height: 500px;
   }
 }
