@@ -151,7 +151,7 @@
   height: 500px !important;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .whiteOverLay {
     max-width: 310px;
     height: 200px;
@@ -167,4 +167,4 @@
   .main {
     min-height: 500px;
   }
-}
+} */
