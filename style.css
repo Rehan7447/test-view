@@ -152,6 +152,6 @@
 
 @media (max-width: 600px) {
   .whiteOverLay {
-    box-shadow: 0 0 0 129px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 0 128.5px rgba(0, 0, 0, 0.8);
   }
 }
